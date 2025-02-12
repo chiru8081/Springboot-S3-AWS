@@ -1,0 +1,24 @@
+Docker: Docker is an open-source platform designed to automate the deployment, scaling, 
+and management of applications within lightweight, portable containers. 
+Containers encapsulate an application and its dependencies into a single package, 
+ensuring that it runs consistently across different computing environments.
+
+Steps to deploy:
+-write a application code
+-build a docker image
+-deploy docker container on server
+
+Containerization in Docker is the process of packaging an application and 
+its dependencies into a single, lightweight, 
+and portable container that can run consistently across different computing environments. 
+Docker containers encapsulate everything an application needs to run, 
+including the code, runtime, libraries, environment variables, and configuration files.
+
+Docker container is the running instanse of docker image
+
+Example: If i insall docker in windows machine and run the linux application on docker container. The Host OS (windows) is translated in windows terms
+
+
+docker run -d --name mongodb\-e Mongo_INITDB_ROOT_USERNAME=admin\-e MONGO_INITDB_ROOT_PASSWORD=password\-p 27017:27017 mongo
+
+docker run -d --name mongodb -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=password -p 27017:27017 mongo

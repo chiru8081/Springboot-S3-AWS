@@ -1,0 +1,13 @@
+keyclock
+
+*we can group all our Oauth clients as single entity clled realm
+
+*we can create our own realm
+*In this realm we can create Oauth clients
+
+*after configuring client
+*we can generate client secret to authenticate
+
+*Next we need to congiure keyclock url in our spring boot application
+*so when we start the application spring boot will read the document which is pesent in the kyclock
+*and authorize the end points
